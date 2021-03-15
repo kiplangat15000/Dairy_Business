@@ -43,6 +43,26 @@ function calculate() {
     document.getElementById("jany").innerHTML = "January income for leap year income is " + output;
     var output = (resultsI * 29);
     document.getElementById("feby").innerHTML = "February income for leap year income is " + output;
+    var output = (resultsI * 31);
+    document.getElementById("mary").innerHTML = "March income for leap year income is " + output;
+    var output = (resultsI * 30);
+    document.getElementById("apry").innerHTML = "April income for leap year income is " + output;
+    var output = (resultsI * 31);
+    document.getElementById("mayy").innerHTML = "May income for leap year income is " + output;
+    var output = (resultsI * 30);
+    document.getElementById("juny").innerHTML = "June income for leap year income is " + output;
+    var output = (resultsI * 31);
+    document.getElementById("julyy").innerHTML = "July income for leap year income is " + output;
+    var output = (resultsI * 31);
+    document.getElementById("augy").innerHTML = "August income for leap year income is " + output;
+    var output = (resultsI * 30);
+    document.getElementById("sepy").innerHTML = "September income for leap year income is " + output;
+    var output = (resultsI * 31);
+    document.getElementById("octy").innerHTML = "October income for leap year income is " + output;
+    var output = (resultsI * 30);
+    document.getElementById("novy").innerHTML = "November income for leap year income is " + output;
+    var output = (resultsI * 31);
+    document.getElementById("decy").innerHTML = "December income for leap year income is " + output;
 }
 
 
