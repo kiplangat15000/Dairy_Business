@@ -18,6 +18,6 @@ To acces this simple project on your local file, clone it using steps bellow
 1. CSS
 1. JS
 ### Live site 
-view us on [live](https://github.com/kiplangat15000/Dairy-Business)
+view us on [live](https://kiplangat15000.github.io/Dairy_Business/)
 ### licence
 This project is under the [MIT](LICENSE)
