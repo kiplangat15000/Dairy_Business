@@ -55,5 +55,11 @@ function weeklyincome() {
     var year = 12;
 
     var resultsw = ((weekone * con) + (weektwo * con) + (weekthree * con) + (weekfour * con));
-    document.getElementById("monthlypro").innerHTML = "Total monthly milk production as per week is " + resultsw +" litres";
+    document.getElementById("monthlypro").innerHTML = "Total monthly milk production as per week is " + resultsw + " litres";
+    var resultsIM = (((weekone * con) + (weektwo * con) + (weekthree * con) + (weekfour * con))*price);
+    document.getElementById("monthlyincome").innerHTML = "Total monthly income is ksh." + resultsIM;
+
+
+    var resultsy = ((((weekone * con) + (weektwo * con) + (weekthree * con) + (weekfour * con)) * price) * year);
+    document.getElementById("yearlyincome").innerHTML = "Total yearly income is Ksh. " + resultsy;
 }
