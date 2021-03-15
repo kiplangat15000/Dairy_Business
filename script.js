@@ -39,6 +39,10 @@ function calculate() {
             
         ]
     }
+     var output = (resultsI * 31);
+    document.getElementById("jany").innerHTML = "January income for leap year income is " + output;
+    var output = (resultsI * 29);
+    document.getElementById("feby").innerHTML = "February income for leap year income is " + output;
 }
 
 
