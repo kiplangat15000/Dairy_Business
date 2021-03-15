@@ -4,3 +4,11 @@
 #buttons {
     margin-left: 5%;
 }
+* {
+    background-color: rgb(204, 198, 198);
+}
+
+#title {
+    text-align: center;
+    margin-top: 2cm;
+}
