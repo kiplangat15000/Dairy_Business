@@ -53,4 +53,7 @@ function weeklyincome() {
     var con = 1;
     var weeks = 4;
     var year = 12;
+
+    var resultsw = ((weekone * con) + (weektwo * con) + (weekthree * con) + (weekfour * con));
+    document.getElementById("monthlypro").innerHTML = "Total monthly milk production as per week is " + resultsw +" litres";
 }
