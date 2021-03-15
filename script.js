@@ -40,3 +40,17 @@ function calculate() {
         ]
     }
 }
+
+
+function weeklyincome() {
+    var weekone = document.getElementById("week_1").value;
+    var weektwo = document.getElementById("week_2").value;
+    var weekthree = document.getElementById("week_3").value;
+    var weekfour = document.getElementById("week_4").value;
+
+    var price = 45;
+    var days = 7;
+    var con = 1;
+    var weeks = 4;
+    var year = 12;
+}
